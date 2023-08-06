@@ -1,0 +1,103 @@
+#imagediv {
+    position: relative;
+    /* Full height */
+    background-image: url(./beautiful-shot-blue-purple-sky-filled-with-starts.jpg);
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    position: fixed;
+    /* bottom: 0; */
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1;
+    width: 100%;
+    /* padding: 20px; */
+}
+
+#lati_tu {
+    padding-left: 0.8rem;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10px; */
+    padding-bottom: 2rem;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+#search-results {
+    color: antiquewhite;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 80%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px 10px;
+}
